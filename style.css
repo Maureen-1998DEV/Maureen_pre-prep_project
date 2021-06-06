@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(littlemix.jpg)no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgb(0,0,0,0.4)
+}
+.logo{
+    width: 100px;
+    height: auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 30px;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+.navbar ul li a.active,
+.navbar ul li a :hover{
+    background: blue;
+    border-radius: 2px;
+}
+.center .p{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%); 
+    font-family: sans-serif;
+}
+
+
+
+
+.blue{
+    color: indigo;
+}
+.yellow{
+    color: hotpink;
+
+}
+.purple{
+    color: darkblue;
+}
+.green{
+    color: darkmagenta;
+}
+.Nelson{
+    width: 400px;
+    border-radius: 250px;
+    float: left;
+    margin-left: 30px;
+}
+.Anne{
+    width: 300px;
+    border-radius: 500px;
+    float: right;
+}
+.jade{
+    width: 200px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 30px;
+}
+.perrie{
+    width: 300px;
+    border-radius: 10px;
+    float: right;
+    
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: darkred;
+    border-radius: 25px;
+
+
+}
