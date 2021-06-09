@@ -130,6 +130,15 @@
     font-size: 30px;
 }
 
+#albums {
+    background-color: green;
+    width: 20%;
+    align-items: center;
+    margin-left: 800px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
 .footer{
     background-color: blue;
     text-align: center;
