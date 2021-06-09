@@ -1,6 +1,6 @@
 # Maureen_pre-prep_project - fav band
 ## Moringa first week independent project 
-### It was done by Maureen for school project
+### Done by Maureen @ 9th June 2021
 # set up/installation requirement
 * Git 
 * web browser
