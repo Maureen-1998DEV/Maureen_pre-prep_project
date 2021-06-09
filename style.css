@@ -30,13 +30,6 @@
     line-height: 2rem;
 
 }
-/* .wrapper {
-    background: url(littlemix.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 1000px;
-} */
-
 .navbar {
     height: 80px;
     width: 100%;
@@ -132,16 +125,15 @@
 
 }
 
-.buttons button {
-    height: 50px;
-    width: 150px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #ffb3b3;
-    background: red;
-    border: 1px solid #cc0000;
-    outline: darkred;
-    border-radius: 25px;
+.favourite_songs {
+    text-align: center;
+    font-size: 30px;
+}
 
-
+.footer{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-style: italic;
 }
