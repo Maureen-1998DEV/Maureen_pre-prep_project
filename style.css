@@ -3,11 +3,39 @@
     margin: 0;
 }
 
-.wrapper {
-    background: url(littlemix.jpg)no-repeat;
+.homepage {
+    background-image: url('https://www.hellomagazine.com/imagenes/healthandbeauty/makeup/2018070249886/little-mix-cosmetics-makeup-line/0-245-300/little-mix-t.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    background-position: center;
+    height: 850px;
+    width: auto;
 }
+
+#title {
+    margin-top: 100px;
+    padding: 40px;
+    color: purple;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 2rem;
+
+}
+/* .wrapper {
+    background: url(littlemix.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+} */
 
 .navbar {
     height: 80px;
@@ -46,7 +74,9 @@
     background: blue;
     border-radius: 2px;
 }
-
+.center {
+    margin: 50px;
+}
 .center .p {
     position: absolute;
     top: 50%;
